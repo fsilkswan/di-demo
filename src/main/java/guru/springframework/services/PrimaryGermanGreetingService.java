@@ -13,6 +13,6 @@ public class PrimaryGermanGreetingService
     @Override
     public String sayGreeting()
     {
-        return "Primärer Grußdienst.";
+        return "Prim\u00E4rer Gru\u00DFdienst.";
     }
 }
