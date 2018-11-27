@@ -1,18 +1,18 @@
-package guru.springframework.services;
+package guru.services;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 @Service
-@Profile({ "default", "en" })
+@Profile("de")
 @Primary
-public class PrimaryGreetingService
+public class PrimaryGermanGreetingService
     implements GreetingService
 {
     @Override
     public String sayGreeting()
     {
-        return "Hello - Primary Greeting service.";
+        return "Prim\u00E4rer Gru\u00DFdienst.";
     }
 }
