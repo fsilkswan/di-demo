@@ -1,18 +1,20 @@
 package guru.springframework.jokes.services;
 
-import org.springframework.context.annotation.Primary;
-import org.springframework.context.annotation.Profile;
-import org.springframework.stereotype.Service;
+import guru.springframework.jokes.repositories.GreetingRepository;
 
-@Service
-@Profile("de")
-@Primary
 public class PrimaryGermanGreetingService
     implements GreetingService
 {
+    private final GreetingRepository greetingRepository;
+
+    public PrimaryGermanGreetingService(final GreetingRepository greetingRepository)
+    {
+        this.greetingRepository = greetingRepository;
+    }
+
     @Override
     public String sayGreeting()
     {
-        return "Prim\u00E4rer Gru\u00DFdienst.";
+        return greetingRepository.getGermanGreeting();
     }
 }
