@@ -1,17 +1,15 @@
-package guru.springframework;
+package guru.springframework.jokes;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.ComponentScan;
 
-import guru.springframework.controllers.ConstructorInjectedController;
-import guru.springframework.controllers.MyController;
-import guru.springframework.controllers.PropertyInjectedController;
-import guru.springframework.controllers.SetterInjectedController;
+import guru.springframework.jokes.controllers.ConstructorInjectedController;
+import guru.springframework.jokes.controllers.MyController;
+import guru.springframework.jokes.controllers.PropertyInjectedController;
+import guru.springframework.jokes.controllers.SetterInjectedController;
 
 @SpringBootApplication
-@ComponentScan(basePackages = { "guru.services", "guru.springframework" })
 public class DiDemoApplication
 {
     public static void main(final String[] args)

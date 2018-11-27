@@ -1,10 +1,10 @@
-package guru.springframework.controllers;
+package guru.springframework.jokes.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 
-import guru.services.GreetingService;
+import guru.springframework.jokes.services.GreetingService;
 
 @Controller
 public class SetterInjectedController
