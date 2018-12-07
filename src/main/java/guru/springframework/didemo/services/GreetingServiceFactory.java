@@ -1,10 +1,10 @@
-package guru.springframework.jokes.services;
+package guru.springframework.didemo.services;
 
-import static guru.springframework.jokes.config.GreetingConfig.LANG_DE;
-import static guru.springframework.jokes.config.GreetingConfig.LANG_EN;
-import static guru.springframework.jokes.config.GreetingConfig.LANG_ES;
+import static guru.springframework.didemo.config.GreetingConfig.LANG_DE;
+import static guru.springframework.didemo.config.GreetingConfig.LANG_EN;
+import static guru.springframework.didemo.config.GreetingConfig.LANG_ES;
 
-import guru.springframework.jokes.repositories.GreetingRepository;
+import guru.springframework.didemo.repositories.GreetingRepository;
 
 public class GreetingServiceFactory
 {

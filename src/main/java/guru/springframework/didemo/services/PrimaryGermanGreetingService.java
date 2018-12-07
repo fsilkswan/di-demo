@@ -1,6 +1,6 @@
-package guru.springframework.jokes.services;
+package guru.springframework.didemo.services;
 
-import guru.springframework.jokes.repositories.GreetingRepository;
+import guru.springframework.didemo.repositories.GreetingRepository;
 
 public class PrimaryGermanGreetingService
     implements GreetingService

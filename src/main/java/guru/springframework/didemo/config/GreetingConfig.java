@@ -1,13 +1,13 @@
-package guru.springframework.jokes.config;
+package guru.springframework.didemo.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;
 
-import guru.springframework.jokes.repositories.GreetingRepository;
-import guru.springframework.jokes.services.GreetingService;
-import guru.springframework.jokes.services.GreetingServiceFactory;
+import guru.springframework.didemo.repositories.GreetingRepository;
+import guru.springframework.didemo.services.GreetingService;
+import guru.springframework.didemo.services.GreetingServiceFactory;
 
 @Configuration
 public class GreetingConfig

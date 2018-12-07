@@ -1,12 +1,12 @@
-package guru.springframework.controllers;
+package guru.springframework.didemo.controllers;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import guru.springframework.jokes.controllers.ConstructorInjectedController;
-import guru.springframework.jokes.services.GreetingServiceImpl;
+import guru.springframework.didemo.controllers.ConstructorInjectedController;
+import guru.springframework.didemo.services.GreetingServiceImpl;
 
 public final class ConstructorInjectedControllerTest
 {

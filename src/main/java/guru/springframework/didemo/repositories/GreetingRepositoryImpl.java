@@ -1,4 +1,4 @@
-package guru.springframework.jokes.repositories;
+package guru.springframework.didemo.repositories;
 
 import org.springframework.stereotype.Component;
 

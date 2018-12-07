@@ -1,13 +1,13 @@
-package guru.springframework.jokes;
+package guru.springframework.didemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
-import guru.springframework.jokes.controllers.ConstructorInjectedController;
-import guru.springframework.jokes.controllers.MyController;
-import guru.springframework.jokes.controllers.PropertyInjectedController;
-import guru.springframework.jokes.controllers.SetterInjectedController;
+import guru.springframework.didemo.controllers.ConstructorInjectedController;
+import guru.springframework.didemo.controllers.MyController;
+import guru.springframework.didemo.controllers.PropertyInjectedController;
+import guru.springframework.didemo.controllers.SetterInjectedController;
 
 @SpringBootApplication
 public class DiDemoApplication

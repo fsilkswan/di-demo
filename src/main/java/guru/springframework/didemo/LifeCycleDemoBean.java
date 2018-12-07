@@ -1,4 +1,4 @@
-package guru.springframework.jokes;
+package guru.springframework.didemo;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
