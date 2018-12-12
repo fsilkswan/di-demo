@@ -1,0 +1,6 @@
+# JMS-Broker configuration:
+guru:
+  jms:
+    username: JMS Username
+    password: somepass
+    url: SomeUrl
