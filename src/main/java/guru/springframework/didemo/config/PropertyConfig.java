@@ -10,6 +10,14 @@ import guru.springframework.didemo.examplebeans.FakeJmsBroker;
 @Configuration
 public class PropertyConfig
 {
+    // The following bean is provided in Spring Boot environment by auto-configuration. In classical Spring environment it is required to be created like this:
+    // @Bean
+    // public static PropertySourcesPlaceholderConfigurer properties()
+    // {
+    // final PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer = new PropertySourcesPlaceholderConfigurer();
+    // return propertySourcesPlaceholderConfigurer;
+    // }
+
     @Value("${guru.password}")
     String dataSourcePassword;
 
